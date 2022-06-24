@@ -4,6 +4,22 @@ public class Class1
 {
 	public Class1()
 	{
-		Console.WriteLine("Hello World");
+		static void main(string[] args);
+        {
+			bool exit = fasle;
+			whiile(!exit);
+            {
+				try
+                {
+					console.writeline("  enter '+' for adition  ");
+					console.writeline("  enter '+'  ");
+
+
+				}
+
+			}
+
+         }
+
 	}
 }
