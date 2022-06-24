@@ -15,6 +15,9 @@ public class Class1
 					console.Writeline("  enter '-' for subtraction ");
 					console.Writeline("  enter '*' for multiplication ");
 					console.Writeline("  enter '/' for Division ");
+					console.Writeline("  enter 'C' or 'c' for  Clear ");
+					console.Writeline("  enter 'E' or 'e' for Exit ");
+
 
 					char read = Convert.Tochar(conlose.ReadLine());
 
@@ -51,14 +54,22 @@ public class Class1
                     {
 						Console.Clear();
                     }
+					 else if ( read == 'E' || read == 'e')
+                    {
+						exit = true;
+                    }
 
-
-
+					else {
+						Console.Writeline(" Invalid  entry");
 				}
 
 			}
 
-         }
+                catch
+				{
+					Console.Writeline(" Invalid  entry");
+				}
+			}
 
 	}
 }
