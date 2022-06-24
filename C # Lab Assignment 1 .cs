@@ -11,15 +11,48 @@ public class Class1
             {
 				try
                 {
-					console.writeline("  enter '+' for adition ");
-					console.writeline("  enter '-' for subtraction ");
-					console.writeline("  enter '*' for multiplication ");
-					console.writeline("  enter '/' for Division ");
+					console.Writeline("  enter '+' for adition ");
+					console.Writeline("  enter '-' for subtraction ");
+					console.Writeline("  enter '*' for multiplication ");
+					console.Writeline("  enter '/' for Division ");
 
 					char read = Convert.Tochar(conlose.ReadLine());
-					if (read == '+')
-						concole.writeline("enter frist number ");
-					double num1 = Convert.ToDouble(concole.ReadLine());
+
+					if (read == '+') {
+						concole.Writeline("enter frist number ");
+						double num1 = Convert.ToDouble(console.ReadLine());
+						concole.Writeline("enter second number ");
+						double num2 = Convert.ToDouble(console.ReadLine());
+						Console.Writeline( $ "Answer": { num1 + num2} );
+					}
+					else if (read == '-') {
+						concole.Writeline("enter frist number ");
+						double num1 = Convert.ToDouble(concole.ReadLine());
+						concole.Writeline("enter second number ");
+						double num2 = Convert.ToDouble(console.ReadLine());
+						Console.Writeline( $ "Answer": { num1 - num2} );
+					}
+					else if  (read == '*') {
+						concole.Writeline("enter frist number ");
+						double num1 = Convert.ToDouble(console.ReadLine());
+						concole.Writeline("enter second number ");
+						double num2 = Convert.ToDouble(console.ReadLine());
+						Console.Writeline( $ "Answer": { num1* num2} );
+					}
+					else if (read == '/') {
+						concole.Writeline("enter frist number ");
+						double num1 = Convert.ToDouble(console.ReadLine());
+						concole.Writeline("enter second number ");
+						double num2 = Convert.ToDouble(console.ReadLine());
+						Console.Writeline( $ "Answer": { num1 / num2} );
+					}
+
+					else if ( read =='C' || read == 'c')
+                    {
+						Console.Clear();
+                    }
+
+
 
 				}
 
