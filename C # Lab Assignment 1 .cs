@@ -22,30 +22,30 @@ public class Class1
 					char read = Convert.Tochar(conlose.ReadLine());
 
 					if (read == '+') {
-						concole.Writeline("enter frist number ");
+						console.Writeline("enter frist number ");
 						double num1 = Convert.ToDouble(console.ReadLine());
-						concole.Writeline("enter second number ");
+						console.Writeline("enter second number ");
 						double num2 = Convert.ToDouble(console.ReadLine());
 						Console.Writeline( $ "Answer": { num1 + num2} );
 					}
 					else if (read == '-') {
-						concole.Writeline("enter frist number ");
+						console.Writeline("enter frist number ");
 						double num1 = Convert.ToDouble(concole.ReadLine());
-						concole.Writeline("enter second number ");
+						console.Writeline("enter second number ");
 						double num2 = Convert.ToDouble(console.ReadLine());
 						Console.Writeline( $ "Answer": { num1 - num2} );
 					}
 					else if  (read == '*') {
-						concole.Writeline("enter frist number ");
+						console.Writeline("enter frist number ");
 						double num1 = Convert.ToDouble(console.ReadLine());
-						concole.Writeline("enter second number ");
+						console.Writeline("enter second number ");
 						double num2 = Convert.ToDouble(console.ReadLine());
 						Console.Writeline( $ "Answer": { num1* num2} );
 					}
 					else if (read == '/') {
-						concole.Writeline("enter frist number ");
+						console.Writeline("enter frist number ");
 						double num1 = Convert.ToDouble(console.ReadLine());
-						concole.Writeline("enter second number ");
+						console.Writeline("enter second number ");
 						double num2 = Convert.ToDouble(console.ReadLine());
 						Console.Writeline( $ "Answer": { num1 / num2} );
 					}
